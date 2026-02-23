@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{background-color: rgba(141, 74, 32, 0.804);}
+        header h1{
+            display: inline;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+        header nav{
+            display: inline;
+        }
+        main .hero{
+            /* text-align: center; */
+            background-color: rgba(182, 180, 180, 0.801);
+        }
+        .hero h1{
+            margin: 0;
+            margin: 10px;
+            border: 2px solid red;
+            padding: 10px;
+        }
+        main .services{
+            background-color: rgba(182, 180, 180, 0.801);
+        }
+
+        footer{background-color: rgba(141, 74, 32, 0.804)}
+        footer h2, footer nav{display: inline;}
+
+        /* form */
+        form{
+            margin-top: 10px;
+        }
+        form input{padding: 3px;}
+        /* form button{padding: 5px 7px;} */
+    </style>
+</head>
+<body>
+    <!-- basic layout structure using semantic elements -->
+    <header>
+        <!-- title / logo, navigation menu -->
+        <h1>Our Webpage</h1>
+        <!-- for important links / main pages -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to our Webpage</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corrupti blanditiis eius earum. Officia praesentium quis quae cum aut quibusdam optio necessitatibus</p>
+        </section>
+
+        <section class="services">
+            <h1>Our services</h1>
+            <ul>
+                <li>Web Development</li>
+                <li>SEO</li>
+                <li>Graphics</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Our Webpage</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+
+    <form>
+        <label for="">
+            Name:
+            <input type="text" placeholder="Enter your name">
+        </label>
+
+        <button type="submit">Submit Form</button>
+    </form>
+
+
+</body>
+</html>

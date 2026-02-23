@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML FORMS & CSS properties -->
+    
+    <form style="border: 2px solid blue;">
+        <!-- name -->
+        <label for="name">
+            Name:
+            <input 
+                type="text" 
+                required 
+                id="name" 
+                maxlength="20"
+                minlength="5"
+                placeholder="Enter your name">
+        </label>
+        <br>
+
+        <!-- email -->
+        <label for="email">
+            Email:
+            <input type="email" id="email">
+        </label>
+        <br>
+
+        <!-- password -->
+        <label for="">
+            Password:
+            <input type="password">
+        </label>
+        <br>
+
+        <!-- Dropdown -->
+        <select>
+            <option value="" hidden>Select an option</option>
+            <option value="lahore" disabled>Lahore</option>
+            <option value="karachi">Karachi</option>
+            <option value="multan">Multan</option>
+        </select>
+        <br>
+
+        <!-- radios -->
+        <p>Gender</p>
+        <label for="radio1">
+            Male:
+            <input 
+                type="radio" 
+                name="Gender" 
+                id="radio1"
+                value="male">
+        </label>
+
+        <label for="radio2">
+            Female:
+            <input 
+                type="radio" 
+                name="Gender" 
+                id="radio2"
+                value="female">
+        </label>
+        <br>
+
+        <!-- checkboxes -->
+        <p>Subjects</p>
+        <label for="">
+            Maths:
+            <input type="checkbox" id="" value="maths">
+        </label>
+        <label for="">
+            Science:
+            <input type="checkbox" id="" value="science">
+        </label>
+        <br>
+
+        <!-- user message -->
+        <label for="">
+            Your Query:
+            <!-- multi-line input field -->
+            <textarea rows="4" cols="30" spellcheck="true"></textarea>
+        </label>
+        <br>
+
+        <!-- button for form submission -->
+        <button type="submit">Save</button>
+    </form>
+
+    <!-- using css properties -->
+    
+    <!-- inline css -->
+    <p style="color: blue; text-align: center;">This is a paragraph</p>
+</body>
+</html>

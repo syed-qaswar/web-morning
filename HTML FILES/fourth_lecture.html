@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth Lecture</title>
+    <!-- internal css -->
+    <style>
+        /* h1 is an element selector */
+        h1{
+          color: green;
+          font-size: 50px; 
+          text-align: center; 
+        }
+        /* h2{
+            text-decoration: underline blue wavy;
+        }
+        p{} */
+
+        /* class selector */
+        .sub-heading{
+            text-decoration: underline blue wavy;
+        }
+        .cities li{
+            color: red;
+        }
+        .text a{
+            text-decoration: none;
+        }
+        .text-box{
+            border: 2px solid red;
+        }
+        .input-box input{
+            border: none;
+            border-bottom: 1px solid blue;
+        }
+        .input-box label span{
+            color: red;
+        }
+        .time-table, .time-table td, .time-table th{
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+
+        /* .time-table td{border: 1px solid blue}
+        .time-table th{border: 1px solid blue} */
+
+    </style>
+
+</head>
+<body>
+    <h1>Pakistan</h1>
+
+    <h2 class="sub-heading">Our provinces</h2>
+    <h2>Our population</h2>
+
+    <p class="text">This is a <a href="#">paragraph</a> </p>
+    
+    <ul class="cities">
+        <li>Lahore</li>
+        <li>Multan</li>
+        <li>Karachi</li>
+    </ul>
+
+    <!-- Div tag -->
+    <div class="text-box">
+        <h2>An Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ratione magni, dolore laboriosam error nobis quaerat quibusdam alias cum repellendus deleniti. Nihil maxime sed blanditiis ea esse quaerat tempora modi?\</p>
+    </div>
+
+    <!-- input styling -->
+    
+    <form action="">
+        <div class="input-box">
+            <label for="">
+                Name<span>*</span>:
+                <input type="text">
+            </label>
+        </div>
+
+
+        <div class="input-box">
+            <label for="">
+                Email:
+                <input type="email">
+            </label>
+        </div>
+    </form>
+
+    <p>this is a paragraph</p>
+
+    <table class="time-table">
+        <tr>
+            <th>row 1 cell 1</th>
+            <th>row 1 cell 2</th>
+            <th>row 1 cell 3</th>
+        </tr>
+        <tr>
+            <td>row 2 cell 1</td>
+            <td>row 2 cell 2</td>
+            <td>row 2 cell 3</td>
+        </tr>
+    </table>
+</body>
+</html>
