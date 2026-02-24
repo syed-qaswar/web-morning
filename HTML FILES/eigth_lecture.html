@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    
+        .box{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid red;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .img-with-text{
+            background-color: rgba(192, 140, 241, 0.838);
+            padding: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- div, box-model, inline-block -->
+   <h1>Box model</h1>
+   <div class="box"></div> 
+   <div class="box"></div> 
+   <div class="box"></div> 
+
+   <!-- image with text -->
+    <section class="img-with-text">
+        <div class="text-box">
+            <h1>Image with text Section</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptate sequi reprehenderit id hic debitis quasi blanditiis possimus suscipit recusandae, ut eligendi, aliquam voluptatibus similique beatae cumque? Vitae, dicta nam?</p>
+            <button>Get more info</button>
+        </div>
+        <div class="img-box">
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <!-- sidebar with aside -->
+    <header>
+
+    </header>
+    <!-- links, menus, ads, posts -->
+    <aside>
+        <h2>Sidebar</h2>
+        <nav>
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+        </nav>
+    </aside>
+    <main>
+        <!-- main content -->
+        <h2>Main content</h2>
+    </main>
+</body>
+</html>
