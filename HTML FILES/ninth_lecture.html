@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .floating-img{
+            width: 300px;
+            float: right;
+        }
+        /* p{font-size: 40px;} */
+        
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 10px;
+            /* float: left; */
+            float: left;
+        }
+        /* .box1{float: left;}
+        .box2{float: left;}
+        .box3{clear: left;} */
+
+        /* using float with layout structure */
+        header{
+            background-color: cadetblue;
+        }
+        header h2, header nav{display: inline-block;}
+
+        aside{
+            background-color: chocolate;
+            float: left;
+            width: 25%;
+            height: 500px;
+            margin-right: 10px;
+        }
+        aside ul{list-style: none;}
+
+        main{
+            background-color: gainsboro;
+            padding: 5px;
+            width: 100%;
+        }
+
+        /* width with percentage */
+        .container{width: 800px;}
+        .container .div1, .container .div2{width: 50%;}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Header</h2>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+        </nav>
+    </header>
+
+    <aside>
+        <h2>Sidebar</h2>
+        <ul>
+            <li>Page 1</li>
+            <li>Page 2</li>
+            <li>Page 3</li>
+        </ul>
+    </aside>
+    <main>
+        <h2>Main</h2>
+         <!-- CSS Float: to wrap text around image -->
+        <img src="../assets/img/Pakistan.png" alt="Flag of Pakistan" class="floating-img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, culpa? Corporis culpa perspiciatis fuga quam velit alias repellendus molestias sunt, qui, neque sint, expedita exercitationem voluptatum quaerat placeat dignissimos explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum vero nulla sit. Architecto eaque pariatur minus molestiae dicta commodi vel, perspiciatis, aliquid obcaecati voluptatum esse, perferendis temporibus praesentium nesciunt placeat?</p>
+        <h2>We are using float</h2>
+
+        <div class="box box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae id velit tenetur praesentium cumque, accusamus repellendus, sequi qui molestias et iusto quisquam. Ut architecto modi quia quod corporis qui dolorum?
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </main>
+   
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </div>
+</body>
+</html>
