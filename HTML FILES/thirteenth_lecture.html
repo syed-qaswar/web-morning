@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* element selector */
+        p{color:blue}
+
+        /* class selector */
+        .text{font-size: 50px;}
+
+        /* group selector */
+        h1,p{
+            text-align: center;
+        }
+
+        /* descendant selector */
+        .box p{
+            font-weight: bold;
+        }
+
+        /* child selector */
+        .box > p{
+            color: orange;
+        }
+
+        /* attribute selectors */
+
+        /* exact attribute */
+        input[type="text"]{
+            padding: 5px;
+            border: 2px solid blue;
+            margin-bottom: 20px;
+        }
+
+        a[href*="google"]{
+            color: brown;
+            text-decoration: none;
+        }
+
+        a[href^='https']{
+            color: black;
+            text-decoration: underline wavy greenyellow;
+        }
+
+        img[src$='.png']{
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- CSS Selectors -->
+    <div class="box">
+        <h1>Css Selectors</h1>
+        <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, magnam error dolorum ut accusamus totam, exercitationem rem molestias quis officia omnis repellat impedit, ducimus accusantium. Nihil, sapiente modi. Cum, ratione!
+        </p>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
+        </div>
+    </div>
+
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+
+    <a href="www.google.com">Google</a>
+    <a href="www.facebook.com">facebook</a>
+    <a href="https://www.wikipedia.org/">Wikipedia</a>
+
+    <!-- Flex: A CSS Module to create interactive web layouts -->
+    <!-- Flex is One dimensional (by-default use row) -->
+
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

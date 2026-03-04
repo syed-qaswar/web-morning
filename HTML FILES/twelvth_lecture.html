@@ -70,14 +70,22 @@
         }
 
         /* header */
+        .topbar{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
 
         .navbar{
             background-color: cadetblue;
             padding: 10px 15px;
             margin-bottom: 20px;
-            position: fixed;
+            /* position: fixed; */
+            position: sticky;
+            top: 0; 
             z-index: 10;
             width: 100%;
+            height: 70px;
         }
         .navbar .title{
             display: inline-block;
@@ -102,53 +110,60 @@
             padding: 10px 15px;
             border-radius: 5px;
         }
+        main{
+            margin-top: 90px;
+        }
+
     </style>
 </head>
 <body>
     <!-- navigation bar -->
-    <header class="navbar">
-        <h1 class="title">MyWebpage</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-        <a href="#" class="btn">Get in touch</a>
+
+    <header>
+        <div class="topbar">
+            This is our webpage
+        </div>  
     </header>
-
-    <!-- CSS Positions -->
-    <h1>Position Absolute</h1>
-    <!-- <div class="container">
-        <div class="absolute"></div>
+    <div class="navbar">
+            <h1 class="title">MyWebpage</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <a href="#" class="btn">Get in touch</a>
     </div>
 
-    <h1>Position Relative</h1>
-    <div class="relative"></div>
+    <main>
+        <!-- CSS Positions -->
+        <h1>Position Absolute</h1>
+        <!-- <div class="container">
+            <div class="absolute"></div>
+        </div>
 
-    <h1>Position Fixed</h1> -->
-    
-    <div class="absolute">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-    </div>
+        <h1>Position Relative</h1>
+        <div class="relative"></div>
 
-    <!-- some sample content -->
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium reprehenderit qui neque optio error sit sint. Maxime nemo sapiente soluta, adipisci magnam iure reiciendis placeat! Nobis nemo odit debitis earum?
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium fugiat voluptate porro pariatur minima consequatur error eaque sed maiores mollitia, a explicabo ipsam minus suscipit perspiciatis excepturi nihil libero quaerat! 
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis expedita rem perspiciatis optio omnis autem, alias quidem sed? Doloribus itaque deserunt omnis dignissimos ab eaque quisquam tempore. Ad, suscipit et!
-    </p>
+        <h1>Position Fixed</h1> -->
+        
+        <div class="absolute">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
 
-    <!-- <div class="relative">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div> -->
+        <!-- some sample content -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium reprehenderit qui neque optio error sit sint. Maxime nemo sapiente soluta, adipisci magnam iure reiciendis placeat! Nobis nemo odit debitis earum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium fugiat voluptate porro pariatur minima consequatur error eaque sed maiores mollitia, a explicabo ipsam minus suscipit perspiciatis excepturi nihil libero quaerat! 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis expedita rem perspiciatis optio omnis autem, alias quidem sed? Doloribus itaque deserunt omnis dignissimos ab eaque quisquam tempore. Ad, suscipit et!
+        </p>
 
-    <!-- position fixed -->
-    <div class="fixed">
 
-    </div>
+        <!-- position fixed -->
+        <div class="fixed">
 
+        </div>
+
+    </main>
 </body>
 </html>
