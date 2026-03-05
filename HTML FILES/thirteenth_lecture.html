@@ -15,7 +15,7 @@
         p{color:blue}
 
         /* class selector */
-        .text{font-size: 50px;}
+        .text{font-size: 20px;}
 
         /* group selector */
         h1,p{
@@ -55,6 +55,19 @@
 
         }
 
+        /* flex */
+        .container{
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+
+        }
+        .container div{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+
 
 
     </style>
@@ -81,7 +94,9 @@
     <!-- Flex: A CSS Module to create interactive web layouts -->
     <!-- Flex is One dimensional (by-default use row) -->
 
-    <div>
+    <!-- flex container / flexbox -->
+    <div class="container">
+        <!-- flex items -->
         <div></div>
         <div></div>
         <div></div>

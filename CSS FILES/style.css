@@ -1,4 +1,18 @@
-p{
-    text-align: center;
-    text-decoration: underline;
+.navbar{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 600px;
+}
+.flex-container div{
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
 }
