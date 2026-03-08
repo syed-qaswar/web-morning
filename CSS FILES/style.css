@@ -4,15 +4,36 @@
 
 .flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border: 2px solid red;
     height: 600px;
+    gap: 0px 5px;
 }
 .flex-container div{
     background-color: cadetblue;
     padding: 10px;
-    margin: 5px;
+    /* margin: 10px; */
     width: 30%;
+}
+
+/* image with text */
+.img-with-text{
+    background-color: rgba(220, 220, 220, 0.733);
+    height: 300px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img-with-text div{
+    width: 45%;
+}
+
+.img-box img{
+    width: 100%;
 }
