@@ -7,6 +7,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
     border: 2px solid red;
     height: 600px;
     gap: 0px 5px;
@@ -15,7 +17,8 @@
     background-color: cadetblue;
     padding: 10px;
     /* margin: 10px; */
-    width: 30%;
+    /* width: 30%; */
+    flex-basis: 300px;
 }
 
 /* image with text */
