@@ -4,22 +4,25 @@
 
 .flex-container{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
-    align-content: space-between;
-    flex-wrap: wrap;
+    align-content: center;
+    /* flex-wrap: wrap; */
+    flex-flow: row nowrap;
     border: 2px solid red;
-    height: 600px;
-    gap: 0px 5px;
+    height: 400px;
+    gap: 5px;
 }
 .flex-container div{
     background-color: cadetblue;
     padding: 10px;
     /* margin: 10px; */
     /* width: 30%; */
-    flex-basis: 300px;
+    flex-basis: 100px;
+    /* width: 200px; */
 }
+/* .item2{align-self: flex-end;} */
 
 /* image with text */
 .img-with-text{
@@ -40,3 +43,6 @@
 .img-box img{
     width: 100%;
 }
+
+.text-box{order: 2}
+.img-box{order: 1}
