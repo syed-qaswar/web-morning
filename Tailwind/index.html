@@ -7,7 +7,93 @@
     <link rel="stylesheet" href="src/output.css" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline hover:text-amber-400">
+    <header class="fixed top-0 z-10 w-full">
+      <!-- navbar -->
+      <div class="flex justify-around items-center bg-slate-900 text-white py-2.5">
+        <!-- nav title -->
+        <p class="font-bold text-lg">My<span class="text-amber-400">Brand</span></p>
+        <!-- nav menu -->
+        <nav class="flex gap-5 text-xs">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+        </nav>
+        <!-- CTA -->
+        <a href="#" class="text-xs bg-amber-400 text-gray-950 px-2 py-1.5 rounded-2xl hover:bg-amber-300 transition-colors duration-700">
+          Get Started
+        </a>
+      </div>
+    </header>
+
+
+    <main>
+      <!-- hero section -->
+      
+      <section class="min-h-screen bg-amber-100 flex justify-center items-center">
+        <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-5 p-5">
+          <!-- card 1 -->
+          <div class="bg-blue-500 p-3">
+            <h2 class="text-[40px]">Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae tempore et quibusdam molestiae.</p>
+          </div>
+          <!-- card 2 -->
+          <div class="bg-blue-500 p-3">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae tempore et quibusdam molestiae.</p>
+          </div>
+          <!-- card 3 -->
+          <div class="bg-blue-500 p-3">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae tempore et quibusdam molestiae.</p>
+          </div>
+          <!-- card 4 -->
+          <div class="bg-blue-500 p-3">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae tempore et quibusdam molestiae.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- services -->
+      <section>
+        <!-- services header -->
+        <div>
+          <!-- content -->
+        </div>
+
+        <!-- services cards -->
+        <div class="grid">
+          <!-- card 1 -->
+          <div></div>
+          <!-- card 2 -->
+          <div></div>
+          <!-- card 3 -->
+          <div></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- container -->
+      <div class="flex">
+        <!-- column 1 -->
+         <div>
+          
+         </div>
+        <!-- column 2 -->
+         <div>
+
+         </div>
+      </div>
+      <!-- copyright -->
+      <div>
+
+      </div>
+    </footer>
+
+
+    <h1 class="text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold underline hover:text-amber-400">
       Hello world!
     </h1>
 
@@ -37,5 +123,45 @@
         </tr>
       </tbody>
     </table>
+
+    <!-- cards using flex -->
+    <section class="flex justify-around">
+      <!-- card -->
+      <div class="w-md border-2 border-blue-700">
+        <img src="../assets/img/car.jpg" alt="" class="w-full">
+        <!-- text -->
+        <div class="p-2">
+          <h2 class="text-3xl font-semibold">Card Title</h2>
+          <p class="text-gray-500 mt-0.5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+          <a href="" class="block w-fit bg-blue-500 text-white px-2 py-1.5 mt-2 rounded-md hover:bg-blue-800">Click Here</a>
+        </div>
+      </div>
+
+      <!-- card -->
+      <div class="w-md border-2 border-blue-700">
+        <img src="../assets/img/car.jpg" alt="" class="w-full">
+        <!-- text -->
+        <div class="p-2">
+          <h2 class="text-3xl font-semibold">Card Title</h2>
+          <p class="text-gray-500 mt-0.5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+          <a href="" class="block w-fit bg-blue-500 text-white px-2 py-1.5 mt-2 rounded-md hover:bg-blue-800">Click Here</a>
+        </div>
+      </div>
+
+      <!-- card -->
+      <div class="w-md border-2 border-blue-700">
+        <img src="../assets/img/car.jpg" alt="" class="w-full">
+        <!-- text -->
+        <div class="p-2">
+          <h2 class="text-3xl font-semibold">Card Title</h2>
+          <p class="text-gray-500 mt-0.5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+          <a href="" class="block w-fit bg-blue-500 text-white px-2 py-1.5 mt-2 rounded-md hover:bg-blue-800">Click Here</a>
+        </div>
+      </div>
+
+    </section>
   </body>
 </html>
