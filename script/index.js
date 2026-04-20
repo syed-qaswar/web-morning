@@ -133,9 +133,9 @@ function calculator(operator){
 
 }
 
-function clear(){
-        document.getElementById('num1').value = 0
-        document.getElementById('num2').innerText = 0
+function clearValues(){
+        document.getElementById('num1').value = ''
+        document.getElementById('num2').value = ''
 }
 
 
