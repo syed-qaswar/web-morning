@@ -1,7 +1,7 @@
 // creating a component
 function Card(props){
     return(
-        <div className="border-2 border-amber-300">
+        <div className={props.style}>
             <img src="" alt="" />
             <div>
                 <h2 className="font-bold text-2xl">{props.title}</h2>
